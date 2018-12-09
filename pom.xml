@@ -20,6 +20,15 @@
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.sonarsource.java/sonar-java-plugin -->
+		<!-- https://mvnrepository.com/artifact/org.sonarsource.java/sonar-java-plugin -->
+		<dependency>
+			<groupId>org.sonarsource.java</groupId>
+			<artifactId>sonar-java-plugin</artifactId>
+			<version>4.10.0.10260</version>
+			<scope>provided</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
